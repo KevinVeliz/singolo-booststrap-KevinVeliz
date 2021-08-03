@@ -1,0 +1,199 @@
+.topbar{
+    
+    padding: 10px;
+}
+
+.navbar {
+	background-color: #2D2F3B;
+
+}
+
+.cont-one{
+    background-color: #2D2F3B;
+}
+
+.menu {
+    justify-content: flex-end;
+    font-size: 15px;
+}
+
+.symbol {
+    color: #F16C65;
+    font-size: larger;
+}
+
+.navbar-brand img {
+    max-width: 150px;
+}
+
+.menu {
+    justify-content: flex-end;
+    font-size: 22px;
+}
+
+.navbar-brand {
+    display: flex;
+}
+
+.navbar-brand h1{
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #F16C65;
+}
+
+
+.cont-second{
+    background-color: rgb(240, 241, 243);
+}
+
+/*OUR SERVICES*/
+
+.cont-tree{
+    background-color: rgb(240, 241, 243);
+}
+
+
+
+
+/*PORTAFOLIO*/
+
+.container-portafolio{
+    background-color: rgb(45, 47, 59);
+    margin-bottom: 5px;
+
+}
+
+.container-portafolio img{
+    margin-top: 10px;
+}
+
+
+
+
+/*FORM*/
+
+.text-port{
+    color: rgb(102, 109, 137);
+    font-weight: 700;
+}
+
+.paragraph{
+    color: rgb(172, 177, 194);
+}
+
+
+/*ABOUT US*/
+
+
+.cont-five{
+    background-color: rgb(240, 241, 243);
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+#img1-1{
+
+overflow: hidden;
+}
+
+#img1-2{
+
+overflow: hidden;
+}
+
+#img1-3{
+
+overflow: hidden;
+}
+
+.text-five{
+    font-size: 15px;
+}
+
+.networks{
+     max-height: 60px;
+    padding-bottom: 20px;
+}
+
+.profiles{
+      width: 100%;
+    max-height: 350px;
+}
+
+/*FORM*/
+
+.cont-six{
+    background-color: #f16c65;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.cont-six h1{
+   color: #cdc9c9;
+}
+
+.cont-six p{
+    color: #cdc9c9;
+}
+
+
+
+.form2 p {
+    font-family: inherit;
+    font-size: smaller;
+    padding: 7px 0;
+}
+
+.form-control-sm , .form-control{
+    background-color: #D75650;
+    border-color: #D75650;
+}
+
+
+/*COPYRIGHT*/
+.row-copyright {
+    color: #626882;
+    font-family: Arial;
+    padding: 20px 30px;
+}
+
+.row-copyright p {
+    top: 50%;
+    left: 50%;
+    transform: translate(5px, 25px);
+}
+
+
+.cont-latest{
+    background-color: #2d2f3b;
+    padding: 25px 0;
+}
+
+.last{
+      display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 800px){
+	.container {
+	   width:100%
+	}
+	
+	.navbar {
+   width:100%;
+}
+}
+
+.carousel-inner > .item > img {
+  object-fit: scale-down;
+  height: 50vh;
+  width: 100%;
+
+}
